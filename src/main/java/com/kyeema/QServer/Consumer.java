@@ -19,7 +19,7 @@ public class Consumer extends Thread {
 					}
 					// Do something with the element (maybe send it to the backend server?)
 					q.getElement();
-					Thread.sleep(25);
+					//Thread.sleep(25);
 				} else {
 					if (qProcessing == true) {					
 						qProcessing = false;
